@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/chap1"
+            android:icon="@drawable/chapter1_icon"
+            android:title="@string/title1" />
+        <item
+            android:id="@+id/chap2"
+            android:icon="@drawable/chapter2_icon"
+            android:title="@string/title2" />
+        <item
+            android:id="@+id/chap3"
+            android:icon="@drawable/chapter3_icon"
+            android:title = "@string/title3" />
+        <item
+            android:id="@+id/chap4"
+            android:icon="@drawable/chapter4_icon"
+            android:title="@string/title4" />
+
+        <item
+            android:id="@+id/chap5"
+            android:icon="@drawable/chapter5_icon"
+            android:title="@string/title5" />
+
+        <item
+            android:id="@+id/chap6"
+            android:icon="@drawable/chapter6_icon"
+            android:title="@string/title6" />
+
+        <item
+            android:id="@+id/chap7"
+            android:icon="@drawable/chapter7_icon"
+            android:title="@string/title7" />
+        <item
+            android:id="@+id/chap8"
+            android:icon="@drawable/chapter8_icon"
+            android:title="@string/title8" />
+
+        <item
+            android:id="@+id/chap9"
+            android:icon="@drawable/chapter9_icon"
+            android:title="@string/title9" />
+
+        <item
+            android:id="@+id/chap10"
+            android:icon="@drawable/chapter10_icon"
+            android:title="@string/title10" />
+
+        <item
+            android:id="@+id/abt"
+            android:icon="@drawable/about_icon"
+            android:title="@string/title_abt" />
+    </group>
+
+
+
+</menu>

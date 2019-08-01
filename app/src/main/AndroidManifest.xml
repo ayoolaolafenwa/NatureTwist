@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ayoolaolafenwa.naturetwist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/nature_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/nature_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Chapter10"
+            android:label="@string/title_activity_chapter10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapter9"
+            android:label="@string/title_activity_chapter9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapter8"
+            android:label="@string/title_activity_chapter8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapter7"
+            android:label="@string/title_activity_chapter7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapter6"
+            android:label="@string/title_activity_chapter6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapter5"
+            android:label="@string/title_activity_chapter5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapter4"
+            android:label="@string/title_activity_chapter4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapter3"
+            android:label="@string/title_activity_chapter3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapter2"
+            android:label="@string/title_activity_chapter2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapter1"
+            android:label="@string/title_activity_chapter1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
